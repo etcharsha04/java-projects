@@ -13,5 +13,9 @@ public class Duck {
 	public void display(){
 		System.out.println("This is dummy duck...");
 	}
+	
+	public void fly(){
+		System.out.println("I am flying... hurray...");
+	}
 
 }
