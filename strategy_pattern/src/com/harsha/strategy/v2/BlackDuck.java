@@ -1,6 +1,6 @@
 package com.harsha.strategy.v2;
 
-public class MallardDuck extends Duck implements Quackable, Flyable{
+public class BlackDuck extends Duck implements Quackable, Flyable{
 
 	public void fly(String name){
 		System.out.println(name+", Hurray!!!... I am flying... ");
@@ -11,8 +11,6 @@ public class MallardDuck extends Duck implements Quackable, Flyable{
 	}
 	
 	public void display(){
-		System.out.println("I am  MallardDuck...");
+		System.out.println("I am  BlackDuck...");
 	}
-	
-
 }

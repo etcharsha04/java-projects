@@ -2,12 +2,12 @@ package com.harsha.strategy.v2;
 
 public class PintailDuck extends Duck implements Quackable, Flyable{
 	
-	public void fly(){
-		System.out.println("Hurray!!!... I am flying");
+	public void fly(String name){
+		System.out.println(name+", Hurray!!!... I am flying... ");
 	}
 	
-	public void quack(){
-		System.out.println("quack... quack...");
+	public void quack(String sound){
+		System.out.println(sound+"..."+sound+"...");
 	}
 	
 	public void display(){
