@@ -1,4 +1,4 @@
-package com.harsha.strategy;
+package com.harsha.strategy.v1;
 
 public class PaperDuck {
 	
