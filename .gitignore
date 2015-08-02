@@ -18,5 +18,5 @@ RemoteSystemsTempFiles/*
 ./RemoteSystemsTempFiles/*
 .metadata
 .metadata/*
-.project
-.classpath
+*/.settings
+*/.settings/*
