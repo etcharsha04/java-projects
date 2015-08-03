@@ -15,32 +15,32 @@ public class DuckClient {
 		
 		duck.display();
 		duck.swim();	
-		duck.getFlyBehavior().fly();
-		duck.getQuackBeharior().quack();
+		duck.performFly();
+		duck.performQuack();
 		
 		System.out.println("------------------------------------");
 		
 		duck = new RedheadDuck();
 		duck.display();
 		duck.swim();	
-		duck.getFlyBehavior().fly();
-		duck.getQuackBeharior().quack();
+		duck.performFly();
+		duck.performQuack();
 		
 		System.out.println("------------------------------------");
 		
 		duck = new RubberDuck();
 		duck.display();
 		duck.swim();	
-		duck.getFlyBehavior().fly();
-		duck.getQuackBeharior().quack();
+		duck.performFly();
+		duck.performQuack();
 		
 		System.out.println("------------------------------------");
 		
 		duck = new WoodenDuck();
 		duck.display();
 		duck.swim();	
-		duck.getFlyBehavior().fly();
-		duck.getQuackBeharior().quack();
+		duck.performFly();
+		duck.performQuack();
 		
 		System.out.println("------------------------------------");
 		

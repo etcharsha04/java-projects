@@ -8,16 +8,16 @@ public class Duck {
 	private QuackBehavior quackBeharior;
 	private FlyBehavior flyBehavior;
 	
-	public QuackBehavior getQuackBeharior() {
-		return quackBeharior;
+	public void performQuack() {
+		quackBeharior.quack();
 	}
 
 	public void setQuackBeharior(QuackBehavior quackBeharior) {
 		this.quackBeharior = quackBeharior;
 	}
 
-	public FlyBehavior getFlyBehavior() {
-		return flyBehavior;
+	public void performFly() {
+		flyBehavior.fly();
 	}
 
 	public void setFlyBehavior(FlyBehavior flyBehavior) {

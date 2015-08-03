@@ -6,8 +6,10 @@ import com.harsha.strategy.v3.behaviors.Quack;
 public class RedheadDuck extends Duck {
 
 	public RedheadDuck(){
+		
 		this.setFlyBehavior(new FlyWithWings());
 		this.setQuackBeharior(new Quack());
+		
 	}
 	
 	public void display(){
