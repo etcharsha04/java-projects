@@ -7,17 +7,18 @@ public class DuckClient {
 
 		MallardDuck duck = new MallardDuck();
 		duck.display();
-		duck.quack();
+		duck.quack(new String("quack quack"));
 		duck.swim();
-		duck.fly();
+		duck.fly(new String("MallardDuck"));
 		
 		System.out.println("--------------------------------------");
 		
 		RedheadDuck duck1 = new RedheadDuck();
 		duck1.display();
-		duck1.quack();
+		
+		duck1.quack("Quack Quack");
 		duck1.swim();
-		duck1.fly();
+		duck1.fly("RedheadDuck");
 		
 		System.out.println("--------------------------------------");
 		
