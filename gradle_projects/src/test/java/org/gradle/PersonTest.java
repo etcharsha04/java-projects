@@ -9,4 +9,11 @@ public class PersonTest {
         Person person = new Person("Larry");
         assertEquals("Larry", person.getName());
     }
+    
+    @Test
+    public void canSetAPersonNameWithSetter(){
+    	Person person = new Person();
+    	person.setName("Larry");
+    	assertEquals("Larry", person.getName());
+    }
 }
