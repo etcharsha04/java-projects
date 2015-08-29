@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Welcome to JS Math Object:</h1>
+<p1 id="demo"></p1><br>
+<p1 id="demo1"></p1><br>
+<p1 id="demo2"></p1><br>
+<p1 id="demo3"><p1><br><br>
+
+<button type="button" onclick="callRandom()">Click to get Random Number!!</button>
+
+<script type="text/javascript">
+	
+	var min = Math.min(10, 10, 20, 23);
+	var max = Math.max(-300, 20, 10, 2);
+	
+	function callRandom(){
+		document.getElementById("demo").innerHTML = ""+Math.random();
+		document.getElementById("demo1").innerHTML = "Max Number: "+max;
+		document.getElementById("demo2").innerHTML = "Min Number: "+min;
+		document.getElementById("demo3").innerHTML = Date();
+	}
+	
+</script>
+</body>
+</html>

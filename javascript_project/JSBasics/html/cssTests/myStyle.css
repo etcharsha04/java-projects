@@ -1,0 +1,28 @@
+body {
+	background-color:lightblue;
+}
+
+h1{
+	color:navy;
+	margin-left:20px;
+}
+
+p {
+	color:red;
+	text-align:center;
+}
+
+#para1 {
+	color:green;
+	text-align:right-justified;
+}
+
+.center {
+	color:blue;
+	text-align:left;
+}
+
+#heading1, #heading2{
+	color:purple;
+	text-align:center;
+}
